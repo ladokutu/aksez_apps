@@ -1,5 +1,6 @@
 {
   "name": "Aksez_Apps",
+  "homepage": "https://aksez-apps.vercel.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -47,8 +48,7 @@
     "tough-cookie": "^4.0.0",
     "typescript": "^4.6.2",
     "update": "^0.4.2",
-    "web-vitals": "^2.1.4",
-	"homepage": "."
+    "web-vitals": "^2.1.4"
   },
   "engines": {
     "node": "18.12.1"
