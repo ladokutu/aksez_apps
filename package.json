@@ -2,7 +2,7 @@
   "name": "Aksez_Apps",
   "homepage": "https://aksezapps.netlify.app/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "-": "0.0.1",
     "@emotion/react": "^11.9.3",
