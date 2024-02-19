@@ -32,25 +32,25 @@ const TemporaryDrawer = (props) => {
 			{ name: 'Approval Form', icon : <EventAvailable/> ,link: '/my/approval_form', id:23 },
 		]
 	  },
-	  { name: 'Organization', icon : <LocationCity/> ,link: '/ds/home', id: 3 ,
+	  { name: 'Organization', icon : <LocationCity/> ,link: '#', id: 3 ,
 		child: [
-			{ name: 'Structure', icon : <Padding/> ,link: '/my/attendance', id:31 },
-			{ name: 'Job Desk', icon : <PersonPinCircle/> ,link: '/my/request_form', id:32 },
+			{ name: 'Structure', icon : <Padding/> ,link: '/ms/under_construction', id:31 },
+			{ name: 'Job Desk', icon : <PersonPinCircle/> ,link: '/ms/under_construction', id:32 },
 		]
 	  },
-	  { name: 'Recruitment', icon : <PersonSearch/> ,link: '/ds/home', id: 4 ,
+	  { name: 'Recruitment', icon : <PersonSearch/> ,link: '#', id: 4 ,
 		child: [
-			{ name: 'List Recruitment', icon : <Reorder/> ,link: '/my/attendance', id:41 },
+			{ name: 'List Recruitment', icon : <Reorder/> ,link: '/ms/under_construction', id:41 },
 			
 		]
 	  },
 	  { name: 'Training', icon : <RunCircle/> ,link: '/ds/home', id: 5 ,
 		child: [
-			{ name: 'Request Training', icon : <PlaylistAdd/> ,link: '/my/attendance', id:51 },
-			{ name: 'Approval Training', icon : <PlaylistAddCheck/> ,link: '/my/request_form', id:52 },
+			{ name: 'Request Training', icon : <PlaylistAdd/> ,link: '/ms/under_construction', id:51 },
+			{ name: 'Approval Training', icon : <PlaylistAddCheck/> ,link: '/ms/under_construction', id:52 },
 		]
 	  },
-	  { name: 'Payrool', icon : <MonetizationOn/> ,link: '/ds/home', id: 6 ,
+	  { name: 'Payroll', icon : <MonetizationOn/> ,link: '#', id: 6 ,
 		child: []
 	  },
 	  { name: 'Masters', icon : <Tune/> ,link: '#', id: 7 ,

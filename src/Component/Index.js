@@ -10,6 +10,7 @@ import NoPage from "./Pages_mui/NoPage";
 import Drawer from "./Pages_mui/Tools/Drawer";
 import AppBar from "./Pages_mui/Tools/AppBar";
 import Footer from "./Pages_mui/Tools/Footer";
+import UnderConstruction from "./Pages_mui/Tools/UnderConstruction";
 import { useAuth } from "./Pages_mui/Tools/useAuth";
 
 import Content from "./Pages_mui/Dashboard/Content";
@@ -81,6 +82,8 @@ const Index = (props) => {
 					
 					<Route path="user_family" element={<><AppBar /><Drawer /><Family/><Footer/></>}/>
 					<Route path="workplace_location" element={<><AppBar /><Drawer /><Location/><Footer/></>}/>
+					
+					<Route path="under_construction" element={<><AppBar /><Drawer /><UnderConstruction/><Footer/></>}/>
 				</Route>
 				</>	: <Route/>
 				}
